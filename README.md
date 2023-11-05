@@ -1,20 +1,20 @@
-# Obsidian Plugin Template with Svelte and Tailwind CSS
+# Obsidian Plugin Template with Svelte and Tailwind CSS (UnoCSS)
 
 This is a template repository for creating an Obsidian plugin using Svelte and
-Tailwind CSS. It provides a basic setup and structure to kickstart your
+Tailwind CSS (UnoCSS). It provides a basic setup and structure to kickstart your
 development process.
 
 Obsidian is a powerful note-taking and knowledge management application. With
 the help of this template, you can create a plugin that extends Obsidian's
 functionality using Svelte, a popular JavaScript framework for building user
-interfaces, along with Tailwind CSS, a utility-first CSS framework.
+interfaces, along with Tailwind CSS (UnoCSS), a utility-first CSS framework.
 
 ## Features
 
 - **Svelte integration**: Leverage the power of Svelte to build interactive and
   reactive user interfaces.
-- **Tailwind CSS**: Utilize the comprehensive utility classes provided by
-  Tailwind CSS to style your plugin.
+- **Tailwind CSS (UnoCSS)**: Utilize the comprehensive utility classes provided by
+  Tailwind CSS (UnoCSS) to style your plugin.
 - **Easy setup**: Get started quickly with a pre-configured project structure
   and build setup.
 - **Hot-reloading**: Enjoy fast development cycles with automatic reloading
@@ -92,11 +92,12 @@ tab in the debugger. Right-click the map file and select "Copy link address". Se
 ## Resources
 
 Here are some resources to help you get started with building plugins for
-Obsidian, Svelte, and Tailwind CSS:
+Obsidian, Svelte, and Tailwind CSS (UnoCSS):
 
 - [Obsidian Plugin API Documentation](https://github.com/obsidianmd/obsidian-api)
 - [Svelte Documentation](https://svelte.dev/docs)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [UnoCSS Documentation](https://unocss.dev/)
 
 ## Contributing
 
