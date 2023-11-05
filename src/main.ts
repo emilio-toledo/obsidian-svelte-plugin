@@ -1,6 +1,6 @@
-import "./styles.css";
-import { ExampleView, VIEW_TYPE_EXAMPLE } from "./views/ExampleView";
 import { Plugin } from "obsidian";
+import { ExampleView, VIEW_TYPE_EXAMPLE } from "./views/ExampleView";
+import "virtual:uno.css";
 
 interface ObsidianNoteConnectionsSettings {
 	mySetting: string;
@@ -11,7 +11,7 @@ const DEFAULT_SETTINGS: ObsidianNoteConnectionsSettings = {
 };
 
 export default class ObsidianNoteConnections extends Plugin {
-	settings: ObsidianNoteConnectionsSettings;
+	settings!: ObsidianNoteConnectionsSettings;
 
 	async loadSettings() {
 		this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
