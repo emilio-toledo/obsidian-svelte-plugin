@@ -5,7 +5,7 @@ import Component from "../components/Example.svelte";
 export const VIEW_TYPE_EXAMPLE = "example-view";
 
 export class ExampleView extends ItemView {
-	component: Component;
+	component!: Component;
 
 	getViewType() {
 		return VIEW_TYPE_EXAMPLE;
